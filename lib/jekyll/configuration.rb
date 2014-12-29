@@ -163,7 +163,7 @@ module Jekyll
     #
     # Returns the filename for the JEKYLL_ENV-specific configuration file.
     def env_config_file
-      "_config_#{Jekyll.env.downcase}.yml"
+      "_config.#{Jekyll.env.downcase}.yml"
     end
 
     # Public: Read configuration and return merged Hash
